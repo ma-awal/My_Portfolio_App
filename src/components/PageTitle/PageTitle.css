@@ -1,7 +1,18 @@
 .page_title h2 {
-  color: var(--text-secondary);
+  color: '#cccccc';
+  font-weight: var(--font-md);
+  position: relative;
+  display: inline;
+}
 
-  text-shadow: 0px 0px 2px var(--text-orange);
-  letter-spacing: 0.2rem;
-  /* font-weight: var(--text-medium); */
+.page_title h2::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  width: 5rem;
+  height: 2px;
+  background: var(--text-secondary);
+  color: var(--text-secondary);
 }

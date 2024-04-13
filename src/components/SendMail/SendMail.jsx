@@ -34,7 +34,16 @@ const SendMail = ({ isFooter }) => {
       </h5>
       <form className=" " ref={form} onSubmit={sendEmail}>
         <div className="form-group mb-3">
-          {isFooter ? '' : <label htmlFor="email">Email</label>}
+          <label htmlFor="name">Name</label>
+          <input
+            type="name"
+            className="form-control"
+            placeholder="Name"
+            name="name"
+          />
+        </div>
+        <div className="form-group mb-3">
+          <label htmlFor="email">Email</label>
           <input
             type="email"
             className="form-control"
@@ -43,7 +52,7 @@ const SendMail = ({ isFooter }) => {
           />
         </div>
         <div className="form-group mb-3">
-          {isFooter ? '' : <label htmlFor="message">Message</label>}
+          <label htmlFor="message">Message</label>
           <textarea
             type="text"
             className="form-control"
@@ -53,7 +62,7 @@ const SendMail = ({ isFooter }) => {
         </div>
         <button
           type="submit"
-          className={`btn btn-sm px-3 py-2  w-100 rounded-0 ${
+          className={`btn  float-end btn-sm px-3 py-2 fw-semibold   rounded-0 ${
             isFooter ? 'bg_color  ' : 'save_btn'
           }`}
         >

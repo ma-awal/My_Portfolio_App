@@ -3,29 +3,25 @@ import React, { useState } from 'react';
 import './Admin.css';
 import AdminIntro from './AdminIntro/AdminIntro';
 import AdminAbout from './AdminAbout/AdminAbout';
-import AdminSkills from './AdminSkills/AdminSkills';
-import AdminProjects from './AdminProjects/AdminProjects';
 import PageTitle from '../../components/PageTitle/PageTitle';
 import AdminSocial from './AdminSocial/AdminSocial';
 import AdminContact from './AdminContact/AdminContact';
 const adminTab = [
   { title: 'Intro', content: <AdminIntro /> },
   { title: 'About', content: <AdminAbout /> },
-  { title: 'Skills', content: <AdminSkills /> },
-  { title: 'Projects', content: <AdminProjects /> },
-  { title: 'Social', content: <AdminSocial /> },
   { title: 'Contact', content: <AdminContact /> },
+  { title: 'Social', content: <AdminSocial /> },
 ];
 
 const Admin = () => {
   const [active, setActive] = useState(0);
   return (
     <section className="admin  w-100  ">
-      <div className="container">
-        <PageTitle title={'Admin'} />
-        <div className="row justify-content-center  ">
-          <div className="col-12 col-lg-10  ">
-            <div className="tab_btns  d-flex align-items-center justify-content-center flex-wrap gap-2 gap-lg-3  ">
+      <PageTitle title={'Admin'} />
+      <div className="container  ">
+        <div className="row justify-content-center pt-5  ">
+          <div className="col-12 col-lg-8">
+            <div className="tab_btns  d-flex align-items-center justify-content-center flex-wrap gap-2 gap-lg-3 mb-5 ">
               {adminTab.map((item, index) => {
                 return (
                   <button

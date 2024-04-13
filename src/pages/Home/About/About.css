@@ -1,6 +1,4 @@
 .about .about_img img {
-  border: 2px solid var(--text-secondary);
-  height: 200px;
   object-fit: cover;
 }
 .about .about_btn {
@@ -13,4 +11,11 @@
   text-align: justify;
   line-height: 20px;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    min-height: min-content !important;
+    padding: 3rem 0rem;
+  }
 }

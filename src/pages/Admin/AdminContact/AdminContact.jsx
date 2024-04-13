@@ -6,15 +6,6 @@ const AdminContact = () => {
     <div className="admin_form py-4">
       <form>
         <div className="form-group mb-3">
-          <label htmlFor="cMail">Mail</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Mail"
-            name="cMail"
-          />
-        </div>
-        <div className="form-group mb-3">
           <label htmlFor="cLocation">Location</label>
           <input
             type="text"
@@ -23,7 +14,15 @@ const AdminContact = () => {
             name="cLocation"
           />
         </div>
-
+        <div className="form-group mb-3">
+          <label htmlFor="cMail">Mail</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Mail"
+            name="cMail"
+          />
+        </div>
         <div className="form-group mb-3">
           <label htmlFor="cMobile">Mobile</label>
           <textarea

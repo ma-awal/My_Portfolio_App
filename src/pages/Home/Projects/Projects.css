@@ -1,0 +1,36 @@
+.single_project {
+  border: 1px solid var(--text-white);
+}
+
+.porjects .single_project h6 {
+  margin-top: 0.5rem;
+}
+
+.link_btns {
+  border: 1px solid var(--text-white) !important;
+  padding: 0.7rem 0rem;
+}
+.link_btns > a span {
+  color: var(--text-secondary) !important;
+  font-size: 22px;
+  border: 1px solid var(--text-white);
+  padding: 0.2rem 0.3rem;
+  border-radius: 5px;
+}
+.skills {
+  border: 1px solid var(--text-secondary);
+}
+.skills span {
+  color: var(--text-secondary);
+  font-weight: var(--font-medium);
+}
+.view_btn {
+  background: var(--text-secondary) !important;
+  font-size: var(--text-sm) !important;
+}
+@media (max-width: 1024px) {
+  .porjects {
+    min-height: min-content !important;
+    padding: 3rem 0rem;
+  }
+}

@@ -1,7 +1,17 @@
 .footer {
-  background: var(--text-secondary);
+  min-height: 20vh !important;
+  display: grid;
+  place-items: center;
 }
 
 .footer h6 {
-  color: var(--text-primary) !important;
+  color: var(--text-secondary) !important;
+}
+
+.common li {
+  line-height: 27px;
+}
+.common li a {
+  text-decoration: none;
+  color: var(--text-white);
 }

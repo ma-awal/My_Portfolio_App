@@ -26,20 +26,11 @@ const AdminSocial = () => {
 
         <div className="form-group mb-3">
           <label htmlFor="linkedinUrl">Linkedin Url</label>
-          <textarea
+          <input
             type="text"
             className="form-control"
             placeholder="Linkedin Url"
             name="linkedinUrl"
-          />
-        </div>
-        <div className="form-group mb-3">
-          <label htmlFor="instagramUrl">Instagram Url</label>
-          <textarea
-            type="text"
-            className="form-control"
-            placeholder="Instagram Url"
-            name="instagramUrl"
           />
         </div>
 

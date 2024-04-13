@@ -15,7 +15,6 @@
   color: var(--text-primary);
   background: #f9f9f9;
   font-size: 13px;
-  border: 1px solid var(--text-secondary);
 }
 
 .send_mail .save_btn {

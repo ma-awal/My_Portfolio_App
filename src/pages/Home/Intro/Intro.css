@@ -1,0 +1,29 @@
+.intro {
+  /* background: url('../../../../public/images/intro.png') no-repeat center/cover; */
+}
+
+.intro p {
+  max-width: 550px;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.intro_wrapper button {
+  border: 1px solid var(--text-secondary);
+  color: var(--text-secondary);
+  transition: 0.3s;
+  background: transparent;
+  font-size: 13px;
+}
+.home_btn button:hover {
+  background: var(--text-secondary);
+  color: var(--text-primary);
+}
+
+.profile_img {
+  border: 2px solid var(--text-secondary);
+}
+
+.profile_img img {
+  border: 1px solid var(--text-secondary);
+}

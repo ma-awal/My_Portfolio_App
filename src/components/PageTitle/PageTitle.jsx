@@ -3,7 +3,7 @@ import './PageTitle.css';
 function PageTitle({ title }) {
   const pageStyle = {};
   return (
-    <div className="page_title text-center pt-2    ">
+    <div className="page_title text-center pt-4   ">
       <h2 className=" display-6    text-capitalize pb-3  " style={pageStyle}>
         {title}
       </h2>

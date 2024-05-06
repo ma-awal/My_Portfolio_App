@@ -1,24 +1,35 @@
-.primary_color {
-  color: var(--text-primary) !important;
+.send_mail {
+  background: var(--text-purple-light);
+  padding: 3.5rem 3rem;
+  border-radius: 0.7rem;
 }
-.bg_color {
-  background: var(--text-primary) !important;
-  color: var(--text-secondary) !important;
-}
-.send_mail label {
-  color: var(--text-white);
-  margin-bottom: 0.3rem;
-}
-.send_mail input,
-.send_mail textarea {
-  border-radius: 0;
-  color: var(--text-primary);
-  background: #f9f9f9;
-  font-size: 13px;
+.send_mail h3 {
+  color: var(--text-purple-light);
 }
 
-.send_mail .save_btn {
-  background: var(--text-secondary) !important;
-  color: var(--text-primary) !important;
-  margin-top: 0.5rem;
+.send_mail input,
+.send_mail textarea {
+  border-radius: 0.3rem;
+  border: 0;
+  padding: 0.6rem 0rem 0.6rem 1rem;
+  background: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+}
+.send_mail input::placeholder,
+.send_mail textarea::placeholder {
+  font-size: 14px;
+  font-weight: var(--fw-semibold);
+}
+.send_mail input:focus,
+.send_mail textarea:focus {
+  box-shadow: var(--text-purple-light);
+  background: var(--text-primary);
+  color: var(--text-light);
+}
+
+@media (max-width: 1024px) {
+  .send_mail {
+    padding: 3rem 2rem;
+  }
 }

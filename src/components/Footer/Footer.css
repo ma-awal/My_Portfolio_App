@@ -1,17 +1,29 @@
 .footer {
-  min-height: 20vh !important;
+  min-height: 25vh !important;
   display: grid;
   place-items: center;
+  background: var(--text-purple);
+}
+.up_down {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  z-index: 10000;
+}
+.up_down:hover {
+  background: var(--text-purple-light) !important;
 }
 
-.footer h6 {
-  color: var(--text-secondary) !important;
-}
+.footer .up_down .up_link span {
+  font-size: 18px;
 
-.common li {
-  line-height: 27px;
-}
-.common li a {
-  text-decoration: none;
-  color: var(--text-white);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-light) !important;
+  background: var(--text-purple-mid);
 }

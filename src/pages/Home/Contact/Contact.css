@@ -1,9 +1,1 @@
-.contact {
-  /* background: url('../../../../public/images/intro.png') no-repeat center/cover; */
-}
-@media (max-width: 1024px) {
-  .contact {
-    min-height: min-content !important;
-    padding: 3rem 0rem;
-  }
-}
+ 

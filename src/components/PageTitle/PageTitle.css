@@ -1,18 +1,14 @@
 .page_title h2 {
-  color: '#cccccc';
-  font-weight: var(--font-md);
   position: relative;
   display: inline;
 }
 
-.page_title h2::after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  bottom: 0;
-  width: 5rem;
-  height: 2px;
-  background: var(--text-secondary);
-  color: var(--text-secondary);
+.page_title p {
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .page_title p {
+    width: 100%;
+  }
 }

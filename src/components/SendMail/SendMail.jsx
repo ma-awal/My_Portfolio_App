@@ -29,12 +29,13 @@ const SendMail = ({ isFooter }) => {
 
   return (
     <div className="send_mail text-start   ">
-      <h5 className={`text-uppercase ${isFooter ? 'primary_color' : ''}`}>
-        {isFooter ? 'Send message' : ''}
-      </h5>
+      <h1 className="heading  mb-4">Get In Touch</h1>
+      <p className="custom_text mb-4  ">
+        Don't forget to send your message. Feel free to connect any time in your
+        need
+      </p>
       <form className=" " ref={form} onSubmit={sendEmail}>
-        <div className="form-group mb-3">
-          <label htmlFor="name">Name</label>
+        <div className="form-group mb-4">
           <input
             type="name"
             className="form-control"
@@ -42,8 +43,7 @@ const SendMail = ({ isFooter }) => {
             name="name"
           />
         </div>
-        <div className="form-group mb-3">
-          <label htmlFor="email">Email</label>
+        <div className="form-group mb-4">
           <input
             type="email"
             className="form-control"
@@ -51,23 +51,23 @@ const SendMail = ({ isFooter }) => {
             name="email"
           />
         </div>
-        <div className="form-group mb-3">
-          <label htmlFor="message">Message</label>
+        <div className="form-group mb-4">
           <textarea
             type="text"
             className="form-control"
             placeholder="Message"
             name="message"
+            rows={4}
           />
         </div>
-        <button
-          type="submit"
-          className={`btn  float-end btn-sm px-3 py-2 fw-semibold   rounded-0 ${
-            isFooter ? 'bg_color  ' : 'save_btn'
-          }`}
-        >
-          Send
-        </button>
+        <div className="text-end">
+          <button
+            type="submit"
+            className="custom_btn font-semibold rounded-pill     "
+          >
+            Send
+          </button>
+        </div>
       </form>
     </div>
   );

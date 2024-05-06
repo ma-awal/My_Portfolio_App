@@ -9,14 +9,20 @@ import { GoLinkExternal } from 'react-icons/go';
 
 const Projects = () => {
   return (
-    <div className="projects  ">
+    <section className="section_projects custom_height   " id="projects">
       <div className="container">
-        <PageTitle title={'Projects'} />
-        <div className="row project_wrapper justify-content-center align-items-center g-4  pt-5 ">
+        <PageTitle
+          title={'  Recent Projects'}
+          text={
+            'I have completed few design and add basic functionlity of few projects'
+          }
+        />
+
+        <div className="row project_wrapper justify-content-center align-items-center g-3 g-md-4 g-lg-5   ">
           {projectsData.map((item, index) => (
-            <div className="col-12 col-md-6 col-lg-4" key={index}>
-              <div className="single_project pb-3">
-                <div className="d-flex justify-content-center align-items-center gap-3 link_btns ">
+            <div className="col-12 col-md-6  " key={index}>
+              <div className="single_project shadow-lg   ">
+                <div className="d-flex justify-content-center align-items-center   link_btns gap-2 py-2">
                   <Link to={item.githubLink}>
                     <span>
                       <FaGithub />
@@ -28,32 +34,22 @@ const Projects = () => {
                     </span>
                   </Link>
                 </div>
-                <div className="img_wrapper">
+                <div className="img_wrapper mb-3">
                   <img
-                    className="img-fluid"
+                    className="img-fluid  "
                     src={item.image}
                     alt={item.projectTitle}
                   />
                 </div>
-                <p className="text-uppercase ps-2 my-2">{item.projectTitle}</p>
-                <div className="skills d-flex flex-wrap align-items-center text-capitalize rounded-3 gap-2  mx-2 ps-2 py-1">
-                  {item.skills.map((skill, skillIndex) => (
-                    <span key={skillIndex} className=" me-1   ">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
+                <p className="text-uppercase text-center   fw-semibold  custom_text">
+                  {item.projectTitle}
+                </p>
               </div>
             </div>
           ))}
         </div>
-        <div className="text-end mt-3">
-          <button className="btn   rounded-0 view_btn  fw-semibold" disabled>
-            View More
-          </button>
-        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

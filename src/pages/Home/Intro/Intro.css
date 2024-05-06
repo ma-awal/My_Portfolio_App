@@ -1,29 +1,18 @@
-.intro {
-  /* background: url('../../../../public/images/intro.png') no-repeat center/cover; */
+.section_intro {
+  background: var(--text-purple);
 }
 
-.intro p {
-  max-width: 550px;
-  text-align: justify;
-  font-size: 13px;
+.section_intro .profile_img {
+  border: 2px solid var(--text-purple-light);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--text-purple),
+    var(--text-purple-light),
+    transparent
+  );
 }
 
-.intro_wrapper button {
-  border: 1px solid var(--text-secondary);
-  color: var(--text-secondary);
-  transition: 0.3s;
-  background: transparent;
-  font-size: 13px;
-}
-.home_btn button:hover {
-  background: var(--text-secondary);
-  color: var(--text-primary);
-}
-
-.profile_img {
-  border: 2px solid var(--text-secondary);
-}
-
-.profile_img img {
-  border: 1px solid var(--text-secondary);
+.section_intro .profile_img img {
+  border: 1px solid var(--text-purple-light);
 }

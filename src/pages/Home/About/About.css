@@ -1,21 +1,26 @@
-.about .about_img img {
-  object-fit: cover;
-}
-.about .about_btn {
+.section_about .about_btn {
   border: 1px solid var(--text-secondary) !important;
   color: var(--text-secondary) !important;
   font-size: var(--text-sm);
 }
 
-.about p {
+.section_about p {
   text-align: justify;
   line-height: 20px;
   margin: 0;
 }
 
-@media (max-width: 1024px) {
-  .about {
-    min-height: min-content !important;
-    padding: 3rem 0rem;
-  }
+.section_about .about_img {
+  border: 2px solid var(--text-purple-light);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--text-purple),
+    var(--text-purple-light),
+    transparent
+  );
+}
+
+.section_about .about_img img {
+  border: 1px solid var(--text-purple-light);
 }

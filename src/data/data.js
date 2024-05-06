@@ -1,6 +1,7 @@
 export const linkData = [
   { name: 'Home', path: 'intro' },
   { name: 'About', path: 'about' },
+  { name: 'Services', path: 'services' },
   { name: 'Skills', path: 'skills' },
   { name: 'Projects', path: 'projects' },
   { name: 'Contact', path: 'contact' },
@@ -12,7 +13,7 @@ export const introData = [
     introName: 'I am  Awal',
     caption: 'Frontend web Developer ',
     description:
-      'Hi am Awal , a perosn with friedly behave. I am a fronend web developer . For being a passion of life I enjoy this profession so much .',
+      'Hi am Awal , a person with friendly behave. Passionate frontend deisgner and developer  ',
   },
 ];
 export const aboutData = [
@@ -23,15 +24,30 @@ export const aboutData = [
       "Hey there! I'm Awal, a passionate web developer with a knack for crafting immersive digital experiences. With a blend of creativity and technical expertise, I specialize in bringing ideas to life through beautifully designed and highly functional websites.I believe in the power of clean, efficient code and intuitive design. Every project I undertake is an opportunity to blend aesthetics with functionality, ensuring an exceptional user experience across all devices and platforms.",
   },
 ];
+export const serviceData = [
+  {
+    heading: 'Frontend Development',
+    desc: 'I can add basic functionality in the frontend project ',
+  },
+  {
+    heading: 'Website Design',
+    desc: 'I will design website basis of your requirment',
+  },
+  {
+    heading: 'Convert Figma ',
+    desc: 'I will convert your figma design into pixel perfect live porject',
+  },
+  {
+    heading: '  Custom Design',
+    desc: 'If you have a specific need ,I will design   according to your requirment',
+  },
+];
 export const skillsData = [
   {
     image: '/images/html.png',
-    skillTitle: 'HTML',
+    skillTitle: 'HTML & CSS',
   },
-  {
-    image: '/images/css.png',
-    skillTitle: 'CSS',
-  },
+
   {
     image: '/images/js.png',
     skillTitle: 'JavaScript',
@@ -48,13 +64,10 @@ export const skillsData = [
     image: '/images/react.png',
     skillTitle: 'React JS',
   },
-  {
-    image: '/images/figma.png',
-    skillTitle: 'Figma',
-  },
+
   {
     image: '/images/github.png',
-    skillTitle: 'GitHub',
+    skillTitle: 'Git',
   },
 ];
 export const projectsData = [
@@ -63,57 +76,35 @@ export const projectsData = [
     image: '/images/Edu.png',
     githubLink: 'https://github.com/ma-awal/NextEdu',
     liveLink: 'https://next-edu-two.vercel.app',
-    skills: ['html', 'css', 'js', 'react'],
   },
   {
     projectTitle: 'TechMax',
     image: '/images/techmax.png',
     githubLink: 'https://github.com/ma-awal/Techmax',
     liveLink: 'https://techmax-ma-awal.vercel.app/',
-    skills: ['html', 'css', 'js', 'react'],
   },
-  {
-    projectTitle: 'Foores ',
-    image: '/images/foores.png',
-    githubLink: 'https://github.com/ma-awal/Feane',
-    liveLink: 'https://feane-ma-awal.vercel.app/',
-    skills: ['html', 'css', 'js', 'react'],
-  },
+
   {
     projectTitle: 'NineStar ',
     image: '/images/star.png',
     githubLink: 'https://github.com/ma-awal/Ninestar',
     liveLink: 'https://ma-awal.github.io/Ninestar/',
-    skills: ['html', 'css', 'js', 'react'],
   },
   {
     projectTitle: 'Tour ',
     image: '/images/Tour.png',
     githubLink: 'https://github.com/ma-awal/Tour',
     liveLink: 'https://ma-awal.github.io/Tour/',
-    skills: ['html', 'css', 'js', 'react'],
-  },
-  {
-    projectTitle: 'Portfolio ',
-    image: '/images/Portfolio.png',
-    githubLink: 'https://github.com/ma-awal/Portfolio-React',
-    liveLink: 'https://main-portfolio-ma-awal.vercel.app/',
-    skills: ['html', 'css', 'js', 'react'],
   },
 ];
-export const contactData = [
-  {
-    cLocation: 'Dhaka , Bangladesh',
-    cMail: 'awal3web@gmail.com',
-    cMobile: '01812959878',
-  },
-];
+
 export const socialData = [
   {
     heading: 'Follow me  ',
-
     facebookUrl: 'https://www.facebook.com/profile.php?id=100077524644610',
     linkedinUrl:
       'https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile',
+
+    githubUrl: 'https://github.com/ma-awal',
   },
 ];

@@ -18,13 +18,17 @@ body {
 :root {
   --text-primary: #0e0f13;
   --text-secondary: #4dc5af;
-  --text-white: #9ea19f;
-  --text-light: #cccccc;
-  --text-sm: 13.5px;
+  --text-purple: rgba(28, 13, 35, 0.579);
+  /* --text-purple-deep: rgb(28, 13, 35); */
+  --text-purple-deep: rgb(55, 26, 69);
+  --text-purple-light: rgba(58, 25, 74, 0.509);
+  --text-purple-mid: rgb(123, 56, 157);
+  --text-light: #f3f3f8;
+  --text-deep: #b8b8bb;
+  --text-sm: 14px;
   --text-base: 16px;
   --text-lg: 18px;
   --text-2xl: 24px;
-  --text-3xl: 36px;
   --font-regular: 400;
   --font-medium: 500;
   --font-semibold: 600;
@@ -38,31 +42,64 @@ img {
   max-width: 100%;
   object-fit: cover;
 }
-
-h1,
-h2,
-h5 {
-  font-weight: var(--font-semibold);
+.heading {
+  font-weight: 600;
   color: var(--text-light) !important;
+  background: linear-gradient(
+    to right,
+    var(--text-purple-mid),
+    var(--text-light) 70%,
+    var(--text-purple-mid)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-h3,
-h6 {
-  color: var(--text-secondary) !important;
-  font-weight: var(--font-semibold);
+.custom_style {
+  color: var(--text-light) !important;
+  background: linear-gradient(
+    to right,
+    var(--text-purple-mid) 10%,
+    var(--text-light) 70%,
+    var(--text-purple-mid) 10%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-p {
-  color: var(--text-white);
+
+.custom_heading {
+  color: var(--text-light);
+  font-weight: 600;
+}
+.custom_text {
+  color: var(--text-light);
   font-weight: 400;
   line-height: 22px;
-  text-align: justify;
 }
-.row {
-  min-height: 82vh;
+.custom_height {
+  min-height: 92vh;
+  padding: 110px 0px 70px 0px;
+}
+
+.custom_btn {
+  color: var(--text-light);
+  background: linear-gradient(
+    -45deg,
+    transparent,
+    var(--text-purple-mid) 100%,
+    rgb(255, 255, 255),
+    transparent
+  );
+  transition: 0.3s;
+  font-size: 14px;
+  padding: 10px 32px !important;
+  border: 1px solid var(--text-purple-mid);
+}
+.custom_btn:hover {
+  background: transparent;
 }
 @media (max-width: 1024px) {
-  .row {
+  .custom_height {
     min-height: min-content !important;
-    padding: 3rem 0rem;
   }
 }

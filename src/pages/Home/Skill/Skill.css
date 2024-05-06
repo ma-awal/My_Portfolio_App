@@ -1,28 +1,14 @@
-.skill {
-  /* background: url('../../../../public/images/skill.png') no-repeat center/cover; */
+.section_skills {
 }
 
-.skill p {
-  max-width: 550px;
-}
-
-.skill_wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 1.5rem;
-}
-.single_skill {
-  background: #f9f9f9;
-  border: 1px solid var(--text-secondary);
+.section_skills .single_skill {
+  background: var(--text-purple-light);
+  padding: 2.5rem 1rem;
+  transition: 0.5s ease-in-out;
 }
 
 .single_skill img {
   object-fit: cover;
   max-width: 42px;
-
   padding: 0.1rem;
-}
-
-.single_skill span {
-  color: var(--text-primary) !important;
 }

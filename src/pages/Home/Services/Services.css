@@ -1,0 +1,29 @@
+.section_service {
+  background: var(--text-purple);
+}
+
+.section_service .single_service span {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--text-purple-mid);
+  margin: auto;
+  transition: 0.9s linear;
+}
+
+.section_service .single_service span .icon {
+  font-size: 20px;
+  color: var(--text-light);
+}
+
+.section_service .single_service {
+  background: var(--text-purple-light);
+  border-radius: 12px;
+  transition: 0.9s linear;
+}
+.section_service .single_service:hover {
+  background: var(--text-purple-deep);
+}

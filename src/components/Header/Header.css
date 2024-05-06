@@ -7,34 +7,23 @@
   padding: 0.7rem 0rem;
   z-index: 1000;
 }
-.navbar-brand {
-  color: var(--text-secondary) !important;
-  font-size: 2rem !important;
-}
-.nav_icon span {
-  color: var(--text-primary);
-  font-size: 22px;
-}
+
 .bar {
-  color: var(--text-secondary);
+  color: var(--text-purple-mid);
+  font-size: 24px;
 }
 
 .nav_link a {
   display: flex;
-
   color: var(--text-light) !important;
   font-weight: var(--font-medium);
 }
-.resume a > button {
-  background: var(--text-secondary) !important;
-  font-size: var(--text-sm);
-  font-weight: var(--font-semibold);
-}
+
 .nav_link a > span:nth-of-type(1) {
   font-size: var(--text-base);
 }
 .nav_link a:hover {
-  color: var(--text-white) !important;
+  color: var(--text-purple-mid) !important;
 }
 
 @media (max-width: 768px) {

@@ -11,27 +11,28 @@
   z-index: 1000;
 }
 
-.sidebar h5 {
-  color: var(--text-primary) !important;
-}
 .sidebar .icon {
-  color: var(--text-primary);
+  color: var(--text-light);
   font-size: 20px;
 }
-.Page_link {
-  background: var(--text-secondary);
+.sidebar .page_link {
+  background: var(--text-purple-deep);
   width: 270px;
   height: 100%;
 }
-.sidebar_link li {
-  background: var(--text-primary);
+.sidebar .page_link .sidebar_link li {
+  background: var(--text-purple-mid);
   text-transform: capitalize;
   margin-bottom: 1rem;
   padding: 0.8rem 0rem;
   text-align: center;
+  transition: 0.3s linear;
+}
+.sidebar .page_link .sidebar_link li:hover {
+  background: var(--text-primary) !important;
 }
 .sidebar_link li a {
-  color: var(--text-secondary) !important;
+  color: var(--text-light) !important;
   text-transform: capitalize;
   cursor: pointer;
 }

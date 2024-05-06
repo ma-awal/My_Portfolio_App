@@ -88,13 +88,13 @@ export const projectsData = [
     projectTitle: 'NineStar ',
     image: '/images/star.png',
     githubLink: 'https://github.com/ma-awal/Ninestar',
-    liveLink: 'https://ma-awal.github.io/Ninestar/',
+    liveLink: 'https://ma-awal.github.io/Project-Ninestar/',
   },
   {
     projectTitle: 'Tour ',
     image: '/images/Tour.png',
     githubLink: 'https://github.com/ma-awal/Tour',
-    liveLink: 'https://ma-awal.github.io/Tour/',
+    liveLink: 'https://ma-awal.github.io/Project-Tour/',
   },
 ];
 

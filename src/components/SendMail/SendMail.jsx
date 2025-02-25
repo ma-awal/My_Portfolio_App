@@ -51,7 +51,7 @@ const SendMail = ({ isFooter }) => {
             name="email"
           />
         </div>
-        <div className="form-group mb-4">
+        <div className="form-group mb-5">
           <textarea
             type="text"
             className="form-control"
@@ -60,7 +60,7 @@ const SendMail = ({ isFooter }) => {
             rows={4}
           />
         </div>
-        <div className="text-end">
+        <div className="text-end ">
           <button
             type="submit"
             className="custom_btn font-semibold rounded-pill     "

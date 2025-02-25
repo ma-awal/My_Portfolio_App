@@ -9,19 +9,20 @@
   background: rgba(22, 21, 18, 0.205);
   backdrop-filter: blur(20px);
   z-index: 1000;
+  transition: 1s;
 }
 
 .sidebar .icon {
-  color: var(--text-light);
+  color: var(--clr-light);
   font-size: 20px;
 }
 .sidebar .page_link {
-  background: var(--text-purple-deep);
+  background: var(--clr-purple-deep);
   width: 270px;
   height: 100%;
 }
 .sidebar .page_link .sidebar_link li {
-  background: var(--text-purple-mid);
+  background: var(--clr-purple-mid);
   text-transform: capitalize;
   margin-bottom: 1rem;
   padding: 0.8rem 0rem;
@@ -29,10 +30,10 @@
   transition: 0.3s linear;
 }
 .sidebar .page_link .sidebar_link li:hover {
-  background: var(--text-primary) !important;
+  background: var(--clr-purple) !important;
 }
 .sidebar_link li a {
-  color: var(--text-light) !important;
+  color: var(--clr-light) !important;
   text-transform: capitalize;
   cursor: pointer;
 }

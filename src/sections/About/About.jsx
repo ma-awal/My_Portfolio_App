@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-import { aboutData } from '../../../data/data';
-import PageTitle from '../../../components/PageTitle/PageTitle';
+import { aboutData } from '../../data/data';
+import PageTitle from '../../components/PageTitle/PageTitle';
 const About = () => {
   if (!aboutData || aboutData.length === 0) {
     // Check if introData exists and has data
@@ -15,8 +15,8 @@ const About = () => {
         <PageTitle title={'About'} />
         <div className="row   justify-content-between align-items-center g-5    text-center text-md-start    ">
           <div className="col-12 col-lg-5">
-            <div className="about_img p-2">
-              <img src="/images/intro.png" className="img-fluid" alt="" />
+            <div className="about_img  ">
+              <img src="/images/pic-2.png" className="img-fluid" alt="" />
             </div>
           </div>
           <div className="col-12   col-lg-6">

@@ -10,7 +10,6 @@ const Social = () => {
   const { heading, facebookUrl, linkedinUrl, githubUrl } = socialData[0];
   return (
     <div className="social  text-center  pt-3 ">
-      <img src="/images/brand.png" className="img-fluid" alt="img" />
       <h6 className="  text-capitalize custom_heading ">{heading}</h6>
       <div className="social_info d-flex align-items-center   justify-content-center gap-2 ">
         <a className="single_link" href={`${facebookUrl}`}>

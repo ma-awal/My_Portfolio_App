@@ -1,7 +1,6 @@
 export const linkData = [
   { name: 'Home', path: 'intro' },
   { name: 'About', path: 'about' },
-  { name: 'Services', path: 'services' },
   { name: 'Skills', path: 'skills' },
   { name: 'Projects', path: 'projects' },
   { name: 'Contact', path: 'contact' },
@@ -9,11 +8,10 @@ export const linkData = [
 
 export const introData = [
   {
-    welcomeText: 'hello ',
-    introName: 'I am  Awal',
-    caption: 'Frontend web Developer ',
+    introName: ' Hi, I am  Awal',
+    caption: 'Frontend Web Developer (UI) ',
     description:
-      'Hi am Awal , a person with friendly behave. Passionate frontend deisgner and developer  ',
+      'Hi am Awal , a person with friendly behave. Passionate  web designer and frontend web developer (User Interface). ',
   },
 ];
 export const aboutData = [

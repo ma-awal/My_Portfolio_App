@@ -1,10 +1,10 @@
 .send_mail {
-  background: var(--text-purple-light);
+  background: var(--clr-purple-light);
   padding: 3.5rem 3rem;
   border-radius: 0.7rem;
 }
 .send_mail h3 {
-  color: var(--text-purple-light);
+  color: var(--clr-purple-light);
 }
 
 .send_mail input,
@@ -12,7 +12,7 @@
   border-radius: 0.3rem;
   border: 0;
   padding: 0.6rem 0rem 0.6rem 1rem;
-  background: var(--text-primary);
+  background: var(--clr-deep);
   font-size: 14px;
   font-weight: 500;
 }
@@ -23,9 +23,9 @@
 }
 .send_mail input:focus,
 .send_mail textarea:focus {
-  box-shadow: var(--text-purple-light);
-  background: var(--text-primary);
-  color: var(--text-light);
+  box-shadow: var(--clr-purple-light);
+  background: var(--clr-light);
+  color: var(--clr-deep);
 }
 
 @media (max-width: 1024px) {

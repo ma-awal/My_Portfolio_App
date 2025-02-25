@@ -1,0 +1,28 @@
+.section_about .about_btn {
+  border: 1px solid var(--clr-secondary) !important;
+  color: var(--clr-secondary) !important;
+  font-size: var(--text-sm);
+}
+
+.section_about p {
+  text-align: justify;
+  line-height: 20px;
+  margin: 0;
+}
+
+.section_about .about_img {
+  border-left: 2px solid var(--clr-purple-light);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--clr-purple),
+    var(--clr-purple-light),
+    transparent
+  );
+  border-radius: 24px;
+}
+
+.section_about .about_img img {
+  border: 1px solid var(--clr-purple-light);
+  border-radius: 24px;
+}

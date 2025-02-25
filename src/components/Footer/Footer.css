@@ -1,8 +1,8 @@
 .footer {
-  min-height: 25vh !important;
+  min-height: 20vh !important;
   display: grid;
   place-items: center;
-  background: var(--text-purple);
+  background: var(--clr-purple-light);
 }
 .up_down {
   position: fixed;
@@ -13,17 +13,16 @@
   z-index: 10000;
 }
 .up_down:hover {
-  background: var(--text-purple-light) !important;
+  background: var(--clr-purple-light) !important;
 }
 
 .footer .up_down .up_link span {
   font-size: 18px;
-
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--text-light) !important;
-  background: var(--text-purple-mid);
+  color: var(--clr-light) !important;
+  background: var(--clr-purple-mid);
 }

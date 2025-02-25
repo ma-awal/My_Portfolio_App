@@ -3,31 +3,28 @@
   top: 0;
   left: 0;
   right: 0;
-  background: var(--text-primary);
-  padding: 0.7rem 0rem;
-  z-index: 1000;
+  height: 70px;
+  background: rgb(64, 38, 90);
+  padding: 0.4rem 0rem;
+  box-sizing: border-box;
+  z-index: 10000;
 }
 
 .bar {
-  color: var(--text-purple-mid);
+  color: var(--clr-purple-mid);
   font-size: 24px;
 }
 
 .nav_link a {
   display: flex;
-  color: var(--text-light) !important;
+  color: var(--clr-light) !important;
   font-weight: var(--font-medium);
+  transition: 0.3s;
 }
 
 .nav_link a > span:nth-of-type(1) {
   font-size: var(--text-base);
 }
 .nav_link a:hover {
-  color: var(--text-purple-mid) !important;
-}
-
-@media (max-width: 768px) {
-  .nav_bar {
-    padding: 1.5rem 0rem;
-  }
+  color: var(--clr-purple-mid) !important;
 }

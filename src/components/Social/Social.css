@@ -6,16 +6,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--text-light) !important;
+  color: var(--clr-light) !important;
   background: linear-gradient(
     -45deg,
     transparent,
-    var(--text-purple-mid) 100%,
+    var(--clr-purple-mid) 100%,
     rgb(255, 255, 255),
     transparent
   );
 }
 
 .social .social_info .single_link > span:hover {
-  background: var(--text-purple-light);
+  background: var(--clr-purple-light);
 }

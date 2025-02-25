@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contact.css';
 
-import SendMail from '../../../components/SendMail/SendMail';
-import PageTitle from '../../../components/PageTitle/PageTitle';
-import ContactMe from '../../../components/ContactMe/ContactMe';
+import SendMail from '../../components/SendMail/SendMail';
+import PageTitle from '../../components/PageTitle/PageTitle';
+import ContactMe from '../../components/ContactMe/ContactMe';
 const Contact = () => {
   return (
     <section className="section_contact custom_height  " id="contact">

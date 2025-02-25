@@ -2,8 +2,8 @@ import React from 'react';
 import './Projects.css';
 
 import { Link } from 'react-router-dom';
-import { projectsData } from '../../../data/data';
-import PageTitle from '../../../components/PageTitle/PageTitle';
+import { projectsData } from '../../data/data';
+import PageTitle from '../../components/PageTitle/PageTitle';
 import { FaGithub } from 'react-icons/fa6';
 import { GoLinkExternal } from 'react-icons/go';
 
@@ -18,11 +18,11 @@ const Projects = () => {
           }
         />
 
-        <div className="row project_wrapper justify-content-center align-items-center g-3 g-md-4 g-lg-5   ">
+        <div className="project_wrapper">
           {projectsData.map((item, index) => (
-            <div className="col-12 col-md-6  " key={index}>
+            <div key={index}>
               <div className="single_project shadow-lg   ">
-                <div className="d-flex justify-content-center align-items-center   link_btns gap-2 py-2">
+                <div className="d-flex justify-content-center align-items-center link_btns gap-2  ">
                   <Link to={item.githubLink}>
                     <span>
                       <FaGithub />
@@ -34,14 +34,14 @@ const Projects = () => {
                     </span>
                   </Link>
                 </div>
-                <div className="img_wrapper mb-3">
+                <div className="img_wrapper py-1">
                   <img
                     className="img-fluid  "
                     src={item.image}
                     alt={item.projectTitle}
                   />
                 </div>
-                <p className="text-uppercase text-center   fw-semibold  custom_text">
+                <p className="text-uppercase text-center   fw-semibold  custom_text  ">
                   {item.projectTitle}
                 </p>
               </div>

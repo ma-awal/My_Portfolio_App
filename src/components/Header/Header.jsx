@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // Header.jsx
 import React, { useState } from 'react';
 import './Header.css';
@@ -6,7 +7,6 @@ import SideBar from '../SideBar/SideBar.jsx';
 import { linkData } from '../../data/data.js';
 const Header = () => {
   const [show, setShow] = useState(false);
-
   const toggleSideBar = () => {
     setShow(!show);
   };
@@ -35,11 +35,11 @@ const Header = () => {
               );
             })}
           </div>
-          <div className="resume">
+          {/* <div className="resume">
             <a href="/images/portfolio.pdf" download>
               <button className=" custom_btn   rounded-pill ">Resume</button>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

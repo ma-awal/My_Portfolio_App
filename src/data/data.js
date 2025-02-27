@@ -83,16 +83,28 @@ export const projectsData = [
   },
 
   {
-    projectTitle: 'NineStar ',
-    image: '/images/star.png',
-    githubLink: 'https://github.com/ma-awal/Ninestar',
-    liveLink: 'https://ma-awal.github.io/Project-Ninestar/',
+    projectTitle: 'Task Manger ',
+    image: '/images/task-1.png',
+    githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
+    liveLink: 'https://1-task-manager-app.vercel.app/',
   },
   {
-    projectTitle: 'Tour ',
-    image: '/images/Tour.png',
-    githubLink: 'https://github.com/ma-awal/Tour',
-    liveLink: 'https://ma-awal.github.io/Project-Tour/',
+    projectTitle: 'Expense Traker',
+    image: '/images/expense.png',
+    githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
+    liveLink: 'https://2-expense-trakcer-app.vercel.app/',
+  },
+  {
+    projectTitle: 'Project Manager',
+    image: '/images/projectify.png',
+    githubLink: 'https://github.com/ma-awal/4_ProjectManager_App',
+    liveLink: 'https://4-project-manager-app.vercel.app/',
+  },
+  {
+    projectTitle: 'Cine Movie',
+    image: '/images/Movie.png',
+    githubLink: 'https://github.com/ma-awal/3_CineMovie_App',
+    liveLink: 'https://3-cine-movie-app.vercel.app/',
   },
 ];
 

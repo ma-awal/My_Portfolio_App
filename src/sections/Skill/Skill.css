@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .section_skills .single_skill {
@@ -30,7 +30,7 @@
 
 .single_skill img {
   object-fit: cover;
-  max-width: 36px;
+  max-width: 40px;
   padding: 0.1rem;
 }
 .section_skills .skills_wrapper span {

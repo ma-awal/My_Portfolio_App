@@ -25,7 +25,7 @@
 .send_mail textarea:focus {
   box-shadow: var(--clr-purple-light);
   background: var(--clr-light);
-  color: var(--clr-deep);
+  color: var(--clr-primary);
 }
 
 @media (max-width: 1024px) {

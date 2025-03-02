@@ -76,20 +76,27 @@ export const projectsData = [
     liveLink: 'https://next-edu-two.vercel.app',
   },
   {
-    projectTitle: 'TechMax',
-    image: '/images/techmax.png',
-    githubLink: 'https://github.com/ma-awal/Techmax',
-    liveLink: 'https://techmax-ma-awal.vercel.app/',
+    projectTitle: 'Portfolio',
+    image: '/images/portfolio.png',
+    githubLink: 'https://github.com/ma-awal/My_Portfolio_App',
+    liveLink: 'https://react-personal-portfolio-ruddy.vercel.app/',
   },
 
   {
-    projectTitle: 'Task Manger ',
+    projectTitle: 'Task Manager ',
     image: '/images/task-1.png',
     githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
     liveLink: 'https://1-task-manager-app.vercel.app/',
   },
   {
-    projectTitle: 'Expense Traker',
+    projectTitle: 'TechMax',
+    image: '/images/techmax.png',
+    githubLink: 'https://github.com/ma-awal/Techmax',
+    liveLink: 'https://techmax.vercel.app/',
+  },
+
+  {
+    projectTitle: 'Expense Tracker',
     image: '/images/expense.png',
     githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
     liveLink: 'https://2-expense-trakcer-app.vercel.app/',
@@ -100,12 +107,12 @@ export const projectsData = [
     githubLink: 'https://github.com/ma-awal/4_ProjectManager_App',
     liveLink: 'https://4-project-manager-app.vercel.app/',
   },
-  {
-    projectTitle: 'Cine Movie',
-    image: '/images/Movie.png',
-    githubLink: 'https://github.com/ma-awal/3_CineMovie_App',
-    liveLink: 'https://3-cine-movie-app.vercel.app/',
-  },
+  // {
+  //   projectTitle: 'Cine Movie',
+  //   image: '/images/movie.png',
+  //   githubLink: 'https://github.com/ma-awal/3_CineMovie_App',
+  //   liveLink: 'https://3-cine-movie-app.vercel.app/',
+  // },
 ];
 
 export const socialData = [

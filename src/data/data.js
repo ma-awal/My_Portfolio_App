@@ -81,13 +81,19 @@ export const projectsData = [
     githubLink: 'https://github.com/ma-awal/My_Portfolio_App',
     liveLink: 'https://react-personal-portfolio-ruddy.vercel.app/',
   },
-
+  {
+    projectTitle: 'Expense Tracker',
+    image: '/images/expense.png',
+    githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
+    liveLink: 'https://2-expense-trakcer-app.vercel.app/',
+  },
   {
     projectTitle: 'Task Manager ',
     image: '/images/task-1.png',
     githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
     liveLink: 'https://1-task-manager-app.vercel.app/',
   },
+
   {
     projectTitle: 'TechMax',
     image: '/images/techmax.png',
@@ -95,12 +101,6 @@ export const projectsData = [
     liveLink: 'https://techmax.vercel.app/',
   },
 
-  {
-    projectTitle: 'Expense Tracker',
-    image: '/images/expense.png',
-    githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
-    liveLink: 'https://2-expense-trakcer-app.vercel.app/',
-  },
   {
     projectTitle: 'Project Manager',
     image: '/images/projectify.png',

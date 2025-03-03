@@ -77,7 +77,7 @@ export const projectsData = [
   },
   {
     projectTitle: 'Portfolio',
-    image: '/images/portfolio.png',
+    image: '/images/my-portfolio.png',
     githubLink: 'https://github.com/ma-awal/My_Portfolio_App',
     liveLink: 'https://react-personal-portfolio-ruddy.vercel.app/',
   },

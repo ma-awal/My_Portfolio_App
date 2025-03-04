@@ -70,29 +70,38 @@ export const skillsData = [
 ];
 export const projectsData = [
   {
-    projectTitle: 'NextEdu',
-    image: '/images/Edu.png',
-    githubLink: 'https://github.com/ma-awal/NextEdu',
-    liveLink: 'https://next-edu-two.vercel.app',
-  },
-  {
     projectTitle: 'Portfolio',
     image: '/images/my-portfolio.png',
     githubLink: 'https://github.com/ma-awal/My_Portfolio_App',
     liveLink: 'https://react-personal-portfolio-ruddy.vercel.app/',
   },
+
   {
-    projectTitle: 'Expense Tracker',
-    image: '/images/expense.png',
-    githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
-    liveLink: 'https://2-expense-trakcer-app.vercel.app/',
+    projectTitle: 'NextEdu',
+    image: '/images/Edu.png',
+    githubLink: 'https://github.com/ma-awal/NextEdu',
+    liveLink: 'https://next-edu-two.vercel.app',
   },
+
   {
-    projectTitle: 'Task Manager ',
-    image: '/images/task-1.png',
-    githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
-    liveLink: 'https://1-task-manager-app.vercel.app/',
+    projectTitle: 'NineStar',
+    image: '/images/nine-star.png',
+    githubLink: 'https://github.com/ma-awal/Project_App_Ninesta ',
+    liveLink: 'https://ma-awal.github.io/Project_App_Ninestar/',
   },
+
+  // {
+  //   projectTitle: 'Expense Tracker',
+  //   image: '/images/expense.png',
+  //   githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
+  //   liveLink: 'https://2-expense-trakcer-app.vercel.app/',
+  // },
+  // {
+  //   projectTitle: 'Task Manager ',
+  //   image: '/images/task-1.png',
+  //   githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
+  //   liveLink: 'https://1-task-manager-app.vercel.app/',
+  // },
 
   {
     projectTitle: 'TechMax',
@@ -101,6 +110,12 @@ export const projectsData = [
     liveLink: 'https://techmax.vercel.app/',
   },
 
+  {
+    projectTitle: 'Blog',
+    image: '/images/blog.png',
+    githubLink: ' https://ma-awal.github.io/Project_App_Blog/',
+    liveLink: 'https://ma-awal.github.io/Project_App_Blog/',
+  },
   {
     projectTitle: 'Project Manager',
     image: '/images/projectify.png',

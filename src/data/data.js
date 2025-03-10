@@ -9,9 +9,9 @@ export const linkData = [
 export const introData = [
   {
     introName: ' Hi, I am  Awal',
-    caption: 'Frontend Web Developer (UI) ',
+    caption: 'Frontend Web Developer   ',
     description:
-      'Hi am Awal , a person with friendly behave. Passionate  web designer and frontend web developer (User Interface). ',
+      ' A person with friendly behave. Passionate  web designer and frontend web developer  ',
   },
 ];
 export const aboutData = [

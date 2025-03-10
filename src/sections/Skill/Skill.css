@@ -29,7 +29,7 @@
 }
 
 .single_skill img {
-  object-fit: cover;
+  object-fit: contain;
   max-width: 40px;
   padding: 0.1rem;
 }

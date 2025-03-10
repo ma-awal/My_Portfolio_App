@@ -14,7 +14,12 @@ const Skill = () => {
           }
         />
         <div className="row d-flex align-items-center justify-content-center gy-5 gy-lg-0">
-          <div className="skills_wrapper col-lg-7">
+          <div className="  col-lg-6">
+            <div className="skills_img  ">
+              <img src="/images/pic-3.png" className="img-fluid" alt="" />
+            </div>
+          </div>
+          <div className="skills_wrapper col-lg-6">
             {skillsData.map((skill, index) => {
               return (
                 <div>
@@ -34,11 +39,6 @@ const Skill = () => {
                 </div>
               );
             })}
-          </div>
-          <div className="  col-lg-5">
-            <div className="skills_img  ">
-              <img src="/images/pic-3.png" className="img-fluid" alt="" />
-            </div>
           </div>
         </div>
       </div>

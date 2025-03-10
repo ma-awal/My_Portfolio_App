@@ -10,7 +10,7 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
 
-  background: #190525 !important;
+  background: var(--clr-purple) !important;
   scroll-behavior: smooth;
   overflow-x: hidden !important;
   font-size: 14px !important;
@@ -25,6 +25,7 @@ body {
   --clr-purple-mid: rgb(123, 56, 157);
   --clr-light: #f3f3f3;
   --clr-deep: #b8b8bb;
+
   --text-sm: 14px;
   --text-base: 16px;
   --text-lg: 18px;

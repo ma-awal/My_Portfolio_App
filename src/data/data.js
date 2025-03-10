@@ -77,56 +77,56 @@ export const projectsData = [
   },
 
   {
-    projectTitle: 'NextEdu',
-    image: '/images/Edu.png',
-    githubLink: 'https://github.com/ma-awal/NextEdu',
-    liveLink: 'https://next-edu-two.vercel.app',
+    projectTitle: 'Expense Tracker',
+    image: '/images/expense.png',
+    githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
+    liveLink: 'https://2-expense-trakcer-app.vercel.app/',
   },
-
   {
-    projectTitle: 'NineStar',
-    image: '/images/nine-star.png',
-    githubLink: 'https://github.com/ma-awal/Project_App_Ninesta ',
-    liveLink: 'https://ma-awal.github.io/Project_App_Ninestar/',
+    projectTitle: 'Task Manager ',
+    image: '/images/tasker.png',
+    githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
+    liveLink: 'https://1-task-manager-app.vercel.app/',
   },
 
-  // {
-  //   projectTitle: 'Expense Tracker',
-  //   image: '/images/expense.png',
-  //   githubLink: 'https://github.com/ma-awal/2_ExpenseTrakcer_App',
-  //   liveLink: 'https://2-expense-trakcer-app.vercel.app/',
-  // },
-  // {
-  //   projectTitle: 'Task Manager ',
-  //   image: '/images/task-1.png',
-  //   githubLink: 'https://github.com/ma-awal/1-TaskManager_App',
-  //   liveLink: 'https://1-task-manager-app.vercel.app/',
-  // },
-
-  {
-    projectTitle: 'TechMax',
-    image: '/images/techmax.png',
-    githubLink: 'https://github.com/ma-awal/Techmax',
-    liveLink: 'https://techmax.vercel.app/',
-  },
-
-  {
-    projectTitle: 'Blog',
-    image: '/images/blog.png',
-    githubLink: ' https://ma-awal.github.io/Project_App_Blog/',
-    liveLink: 'https://ma-awal.github.io/Project_App_Blog/',
-  },
   {
     projectTitle: 'Project Manager',
     image: '/images/projectify.png',
     githubLink: 'https://github.com/ma-awal/4_ProjectManager_App',
     liveLink: 'https://4-project-manager-app.vercel.app/',
   },
+  {
+    projectTitle: 'Cine Movie',
+    image: '/images/movie.png',
+    githubLink: 'https://github.com/ma-awal/3_CineMovie_App',
+    liveLink: 'https://3-cine-movie-app.vercel.app/',
+  },
+
+  {
+    projectTitle: 'NextEdu',
+    image: '/images/Edu.png',
+    githubLink: 'https://github.com/ma-awal/NextEdu',
+    liveLink: 'https://next-edu-two.vercel.app',
+  },
+
   // {
-  //   projectTitle: 'Cine Movie',
-  //   image: '/images/movie.png',
-  //   githubLink: 'https://github.com/ma-awal/3_CineMovie_App',
-  //   liveLink: 'https://3-cine-movie-app.vercel.app/',
+  //   projectTitle: 'NineStar',
+  //   image: '/images/nine-star.png',
+  //   githubLink: 'https://github.com/ma-awal/Project_App_Ninesta ',
+  //   liveLink: 'https://ma-awal.github.io/Project_App_Ninestar/',
+  // },
+  // {
+  //   projectTitle: 'TechMax',
+  //   image: '/images/techmax.png',
+  //   githubLink: 'https://github.com/ma-awal/Techmax',
+  //   liveLink: 'https://techmax.vercel.app/',
+  // },
+
+  // {
+  //   projectTitle: 'Blog',
+  //   image: '/images/blog.png',
+  //   githubLink: ' https://ma-awal.github.io/Project_App_Blog/',
+  //   liveLink: 'https://ma-awal.github.io/Project_App_Blog/',
   // },
 ];
 

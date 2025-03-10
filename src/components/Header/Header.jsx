@@ -26,10 +26,14 @@ const Header = () => {
           <a className="navbar-brand">
             <img src="/images/brand.png" className="img-fluid" alt="img" />
           </a>
-          <div className="nav_link  d-flex gap-3 align-items-center justify-content-center">
+          <div className="nav_link  d-flex gap-3 align-items-center justify-content-center ">
             {linkData.map((link, index) => {
               return (
-                <a href={`#${link.path}`} className="" key={index}>
+                <a
+                  href={`#${link.path}`}
+                  className="text-uppercase"
+                  key={index}
+                >
                   {link.name}
                 </a>
               );

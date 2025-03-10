@@ -4,7 +4,12 @@
   left: 0;
   right: 0;
   height: 70px;
-  background: rgb(64, 38, 90);
+  /* background: rgb(64, 38, 90); */
+  background: linear-gradient(
+    45deg,
+    var(--clr-purple),
+    var(--clr-purple-light)
+  );
   padding: 0.4rem 0rem;
   box-sizing: border-box;
   z-index: 10000;

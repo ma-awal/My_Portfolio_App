@@ -29,7 +29,7 @@ const Intro = () => {
                   target="blank"
                 >
                   <button className="text-capitalize fw-semibold    rounded-pill   shadow-lg custom_btn">
-                    Profile
+                    Linkedin
                   </button>
                 </a>
 

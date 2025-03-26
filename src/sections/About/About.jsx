@@ -28,7 +28,7 @@ const About = () => {
               <div className="resume">
                 <a href="/images/portfolio.pdf" download>
                   <button className=" custom_btn rounded-pill     ">
-                    Download cv
+                    Download Resume
                   </button>
                 </a>
               </div>

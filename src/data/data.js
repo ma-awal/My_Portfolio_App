@@ -11,7 +11,7 @@ export const introData = [
     introName: ' Hi, I am  Awal',
     caption: 'Frontend Web Developer   ',
     description:
-      ' A person with friendly behave. Passionate  web designer and frontend web developer  ',
+      ' "Self-taught Front-End Developer skilled in JavaScript and React.js, passionate about building dynamic, responsive, and user-friendly web applications."  ',
   },
 ];
 export const aboutData = [
@@ -19,7 +19,7 @@ export const aboutData = [
     aboutHeading: 'get intro about awal',
     aboutImg: '/images/about-info.png',
     aboutDesc:
-      "Hey there! I'm Awal, a passionate web developer with a knack for crafting immersive digital experiences. With a blend of creativity and technical expertise, I specialize in bringing ideas to life through beautifully designed and highly functional websites.I believe in the power of clean, efficient code and intuitive design. Every project I undertake is an opportunity to blend aesthetics with functionality, ensuring an exceptional user experience across all devices and platforms.",
+      "I'm a self-taught Front-End Developer with hands-on experience building dynamic and responsive web applications using JavaScript and React.js.With 5+ projects completed, I specialize in crafting accessible, performance-optimized interfaces that enhance user experience. I thrive in collaborative environments, actively engaging in code reviews and pair programming to improve code quality and scalability.Currently, I'm expanding my expertise in React Hooks, state management, and modern front-end development practices to build scalable and maintainable applications. I'm always eager to learn and take on new challenges!",
   },
 ];
 export const serviceData = [
